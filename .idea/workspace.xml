@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e9581e5-6ed6-4792-9ad2-64c8e80db656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/TicketApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/controller/TicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/controller/TravelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/controller/TravelTicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/model/TravelOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/model/TravelTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/repository/InMemoryTicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/repository/InMemoryTravelTicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/repository/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/repository/TravelTicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/service/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/service/TicketServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/service/TravelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/service/TravelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/service/TravelTicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ticket/com/service/TravelTicketServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="6e9581e5-6ed6-4792-9ad2-64c8e80db656" name="Changes" comment="сообщение" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,16 +28,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "onboarding.tips.debug.path": "/Users/mac/Downloads/ticketapp01/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mac/Downloads/ticketapp01/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.ticket.com.service" />
@@ -96,7 +72,19 @@
       <option name="presentableId" value="Default" />
       <updated>1709322924638</updated>
     </task>
+    <task id="LOCAL-00001" summary="сообщение">
+      <created>1710099351251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710099351251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="сообщение" />
+    <option name="LAST_COMMIT_MESSAGE" value="сообщение" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
