@@ -31,6 +31,6 @@ public class TicketServiceImpl implements TicketService{
 
     @Override
     public List<Ticket> findByDestination(String destination) {
-        return null;
+        return repository.findByDestination(destination);
     }
 }

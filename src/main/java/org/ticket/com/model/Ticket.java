@@ -10,6 +10,10 @@ public class Ticket extends TravelOption{
 
     private double price;
 
+    private Ticket() {
+        //
+    }
+
     public Ticket(long id, String source, String destination, double price) {
         this.source = source;
         this.destination = destination;

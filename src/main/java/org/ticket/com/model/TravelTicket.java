@@ -1,12 +1,23 @@
 package org.ticket.com.model;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "travel_ticket")
 public class TravelTicket extends TravelOption{
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO) // auto increment
     private long id;
 
+    @Column(name = "period")
     private String period;
 
     private double price;
+
+    public TravelTicket() {
+        //
+    }
 
     public TravelTicket(long id, String period, double price) {
         this.id = id;

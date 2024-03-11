@@ -1,9 +1,8 @@
 package org.ticket.com.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.ticket.com.model.Ticket;
 import org.ticket.com.model.TravelTicket;
 import org.ticket.com.service.TravelTicketService;
 
@@ -20,5 +19,15 @@ public class TravelTicketController {
     @GetMapping
     public List<TravelTicket> getAll() {
         return service.findAll();
+    }
+
+    @GetMapping("/search")
+    public List<TravelTicket> getAllByPeriod(@RequestParam (name = "period") String period) {
+        return service.findByPeriod(period);
+    }
+
+    @PostMapping
+    public TravelTicket create(@RequestBody TravelTicket ticket) {
+        return service.save(ticket);
     }
 }

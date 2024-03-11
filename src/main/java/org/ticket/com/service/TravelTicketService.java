@@ -8,5 +8,7 @@ public interface TravelTicketService {
 
     List<TravelTicket> findAll();
 
-    TravelTicket findByPeriod(String period);
+    List<TravelTicket> findByPeriod(String period);
+
+    TravelTicket save (TravelTicket ticket);
 }
