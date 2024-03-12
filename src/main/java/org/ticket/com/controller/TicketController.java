@@ -35,6 +35,7 @@ public class TicketController {
 
     @GetMapping("/{id}")
     public Ticket getById(@PathVariable int id) {
+        log.info("Call method getById with id {} for ticket controller", id);
         return service.findById(id);
     }
 
