@@ -13,7 +13,6 @@ import org.ticket.com.repository.TravelTicketRepository;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 @Slf4j
 public class TravelTicketServiceImpl implements TravelTicketService {
 

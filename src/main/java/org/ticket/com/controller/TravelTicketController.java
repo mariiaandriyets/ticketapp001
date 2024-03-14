@@ -5,12 +5,11 @@ import jakarta.validation.ConstraintViolationException;
 import jakarta.validation.Path;
 import jakarta.validation.ValidationException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.ticket.com.exceptions.TravelTicketInvalidArgumentException;
-import org.ticket.com.exceptions.TravelTicketNotFoundException;
-import org.ticket.com.model.Ticket;
 import org.ticket.com.model.TravelTicket;
 import org.ticket.com.service.TravelTicketService;
 
@@ -24,7 +23,7 @@ import java.util.Set;
 @RequestMapping("/api/travel_tickets")
 public class TravelTicketController {
 
-    @Autowired
+   @Autowired
     private TravelTicketService service;
 
     @GetMapping
